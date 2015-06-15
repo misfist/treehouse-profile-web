@@ -12,7 +12,7 @@ function home(request, response) {
 //if url == "/" && POST
   //redirect to /:username
 
-//3 Handle HTTP route GET /:username i.e. /misfist
+//Handle HTTP route GET /:username i.e. /misfist
 function user(request, response) {
   var username = request.url.replace('/', '');
   if(username.length > 0) {
